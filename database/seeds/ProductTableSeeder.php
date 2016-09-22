@@ -20,7 +20,7 @@ class ProductTableSeeder extends Seeder
         $product->save();
         $product = new \App\Product([
             'imagePath' => 'http://vanisbakery.com/wp-content/uploads/2016/09/professional-video-camera-300x290.jpg',
-            'title' => 'Sonny',
+            'title' => 'Sonny Professional Video Camera',
             'description' => 'Professional Camera with high resolutions!',
             'price' => 1200
         ]);
@@ -34,7 +34,7 @@ class ProductTableSeeder extends Seeder
         $product->save();
         $product = new \App\Product([
             'imagePath' => 'http://vanisbakery.com/wp-content/uploads/2016/09/sun1-300x300.jpg',
-            'title' => 'Elegant dress for special occassion',
+            'title' => 'Maid wedding dress',
             'description' => 'Great for wedding occassions and that special day!',
             'price' => 89
         ]);
